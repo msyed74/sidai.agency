@@ -24,7 +24,7 @@ body{
     justify-content: space-between;
     z-index: 10;
 }
-@media (max-width:500px) {
+@media (max-width:430px) {
     #nav{
         width: 430px;
         padding: 3vw;
@@ -152,7 +152,7 @@ body{
 @media  (max-width:430px){
     #page1{
         height: 500px;
-        width: 420;
+        width: 430;
         position: relative;
     }
     #moving-div{
@@ -398,7 +398,7 @@ body{
 
 
 #page35{
-    height: 280vh;
+    height: 300vh;
     width: 100%;
     background-color: #111;
     position: relative;
@@ -409,7 +409,7 @@ body{
 }
 @media (max-width:500px){
     #page35{
-        height: 2000px;
+        height: 1450px;
         width: 430px;
        padding: 0px;
        text-align: center;
@@ -424,6 +424,12 @@ body{
     #p35lb{
         height: 1vh;
         width: 4vh;
+        margin: 3vh;
+        margin-top: 100px;
+        margin-left: -6vh;
+    }
+    #page35-l button{
+        margin-top: 100px;
     }
 }
 #page35-l{
@@ -452,13 +458,22 @@ body{
     background-color: #111;
     color: #fff;
 }
-@media (max-width:500px){
+@media (max-width:430px){
     #page35-r{
         width: 430px;
         text-align: center;
-        margin-top: 150px;
+        margin-top: 250px;
     }
+    #page35-rs1{
+        
+        height: 400px;
+        overflow: hidden;
+    }
+    #page35-rs1 h4{
     
+        text-align: left;
+        text-transform: capitalize;
+    }
 }
 
 #page35-rs1 {
@@ -477,7 +492,7 @@ body{
 
 #page35-rs1 h4{
     margin-top: 3vh;
-    font-size: 4vh;
+    font-size: 1.5rem;
 }
 #page35-rs2 h2{
     font-size: 7vh;
@@ -504,8 +519,22 @@ body{
     background-color: #111;
     padding: 4vh;
     display: flex;
+    
     justify-content: space-between;
 
+}
+
+@media (max-width:430px){
+    #page35-uxresearch h4{
+          
+           text-align: left;
+    }
+    #page35-uxresearch {
+          
+        display: flex;
+        flex-direction: column;
+        padding: 2vh;
+ }
 }
 #page35-uxresearch:hover{
  background-color: #333;
@@ -518,13 +547,13 @@ body{
 }
 
 #page35-uxresearch h4{
-    font-size: 2vh;
-    margin-top: 3vh;
-    margin-left: 10vh;
+    font-size: 1rem;
+   
+    margin-left: 10vw;
 }
 
 .page35-rstile{
-    height: 20vh;
+    height: 10rem;
     width: 100%;
     display: flex;
     padding: 5vh;
@@ -532,6 +561,15 @@ body{
     text-align:left;
     border-top: 1px solid #333 ;
     background-color:#111;
+}
+
+@media (max-width:430px){
+    .page35-rstile{
+        height: 70vw;
+      display: flex;
+      flex-direction: column;
+     
+    }
 }
 .page35-rstile:hover{
     background-color:#333;
@@ -546,7 +584,7 @@ body{
 }
 
 .page35-rstile h4{
-    font-size: 2vh;
+    font-size: 1rem;
     margin-top: 3vh;
     margin-left: 10vh;
 }
@@ -564,6 +602,23 @@ body{
     background-color: #111;
     padding: 20vh;
     border-top: 1px solid #333;
+}
+
+@media (max-width:430px){
+    #page5{
+        height: 3000px;
+        display: flex;
+        flex-direction: column;
+        padding: 0vh;
+        margin-top: 1730px;
+    }
+    #page5-top{
+        margin-top: 10vh;
+    }
+    #page5-top p{
+        font-size: 6vw;
+        font-weight: 100;
+    }
 }
 #page5-top{
     text-align: center;
@@ -606,8 +661,30 @@ body{
 }
 #page5-box1{
     display: flex;
+    background-color: #111;
     
 }
+@media (max-width:430px){
+    #page5-box1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #page5-box{
+        padding: 0vh;
+        width: 40vh;
+        height: 30vh;
+        margin-left: 25px;
+    }
+
+#page5-box h1{
+   margin-top: 0vh;
+   z-index: 9;
+   top: 100px;
+}
+
+}
+
 
 #page5-boxl{
     background-color: #0DA34E;
@@ -617,6 +694,15 @@ body{
     margin: 1vh;
     transition: all ease-in 1s;
     transition-duration: 1s;
+}
+
+@media(max-width:430px){
+    #page5-boxl{
+        height: 30vh;
+        width: 40vh;
+        margin-left: 25px;
+    }
+    
 }
 
 #page5-boxl:hover{
@@ -651,30 +737,60 @@ body{
     margin-top: -20vh;
     
 }
+@media(max-width:430px){
+    #page6{
+        margin-top: 15vh;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        height: 1500px;
+        
+    }
+    #page6-left{
+        width: 430px;
+        text-align: left;
+    }
+ 
+    #page6-left h1{
+        text-align: center;
+        
+    }
+    #page6-left h5{
+        text-align: center;
+    }  #page6-left h6{
+        text-align: center;
+        margin-left: 40px;
+    }
+    
+}
 #page6-left{
     height: 100%;
-    width: 40%;
+    width: 40vw;
     
     color: #fff;
 }
 #page6-left h1{
-       font-size: 7vh;
+       font-size: 5vh;
        padding-top: 5vh;
+       width: 430px;
+       
 }
 
 #page6-left h6{
     font-size: 3vh;
     padding-top: 5vh;
+    width: 360px;
 }
 
 
 #page6-left h5{
     font-size: 2vh;
     padding-top: 5vh;
+    width: 360px;
 }
 #page6-right{
     height: 100%;
-    width: 50%;
+    width: 100vh;
     overflow-y: scroll;
     scrollbar-width: none;
     scroll-behavior: smooth;
@@ -686,6 +802,16 @@ body{
     padding: 5vh;
     
 }
+@media (max-width:430px){
+    #page6-right{
+        padding: 0vh;
+        margin: 0vh;
+        width: 430px;
+        height: 1000px;
+    }
+
+}
+
 #page6-right1{
     margin:4vh;
     border-top: 1px solid #333;
@@ -748,6 +874,23 @@ body{
     flex-direction: column;
     
 }
+
+@media (max-width:430px){
+    #page7{
+        margin:0px;
+        padding: 0px;
+        width: 430px;
+        height: 2000px;
+    }
+    #page7-opening{
+        width:430px;
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+      
+    }
+    
+}
 #page7 h1{
     font-size: 15vh;
     text-align:left;
@@ -767,7 +910,7 @@ body{
    padding: 10vh;
 }
 #display-cont{
-         margin-left: 20vh;
+         margin-left: 20vw;
          align-items: flex-start;
          width: 150vh;
          height: 10vh;
@@ -1136,6 +1279,13 @@ body{
     justify-content: space-between;
     border: 1px solid #fff;
 }
+
+@media (max-width:430px){
+      #notifl{
+        width: 300px;
+        left: 30px;
+      }
+}
 #notifl:hover{
     border: 1px solid #0DA34E;
 }
@@ -1178,6 +1328,13 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
     
+}
+@media (max-width : 430px){
+       #footer{
+        width: 430px;
+    
+       }
+     
 }
 #footer-top{
     height: 40vh;
